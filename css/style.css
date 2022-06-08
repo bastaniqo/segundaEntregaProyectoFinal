@@ -1,0 +1,113 @@
+.flex__cv {
+    background: #2f3542;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+    color: #fff;
+  }
+  
+  .flex__cv img {
+    max-width: 480px;
+    width: 100%;
+  }
+  
+  .form-box {
+    width: 480px;
+    background: #2F3542;
+    text-align: center;
+  }
+  
+  .form-title {
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .form-box input[type="text"], .form-box input[type="password"], .form-box button[type="submit"], .form-box input[type="email"], .form-box input[type="number"], .coment textarea {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3742fa;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+  
+  .coment textarea {
+    width: 360px !important;
+  }
+  
+  .form-box input[type="text"]:focus, .form-box input[type="password"]:focus, .form-box input[type="email"]:focus, .form-box input[type="number"]:focus {
+    width: 350px;
+    border-color: #ffffff;
+  }
+  
+  .form-box button{
+    border: 0;
+    background: #5352ed;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3742fa;
+    padding: 14px 40px;
+    outline: none;
+    border-radius: 24px;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .form-box button[type="submit"]:hover {
+    background: none;
+  }
+  
+  .fa {
+    width: 1px;
+    border-radius: solid 2px;
+    color: #fff;
+  }
+  .title {
+    border: #fff solid 1px;
+  }
+  #resultado{
+    border: #fff solid 1px;
+    padding: 1px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .flex__cv {
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+    }
+  }
+
+  td {
+    color: #fff;
+  }
+
+  h2 {
+    color: yellow; 
+    background: #fff;
+  }
